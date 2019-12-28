@@ -1,0 +1,25 @@
+$font-utama : 'Arial, Helvetica, sans-serif';
+$font-001 :13px;
+$font-002 :15px;
+$font-003 :16px;
+$font-004 :19px;
+$font-005 :24px;
+$font-006 :26px;
+$font-007 :32px;
+$font-008 :36px;
+$font-009 :38px;
+$font-010 :40px;
+$font-011 :42px;
+$color-900: #333033;
+$lebar		: 1280px;
+$margin		: 0 auto;
+$color-text-dark: $color-900;
+@mixin menu{
+	font-weight: bold;
+	font-size: $font-003;
+	color: $color-900;
+}
+
+@mixin font-size-100 {
+	color: $color-text-dark;
+}
